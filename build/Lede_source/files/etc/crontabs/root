@@ -1,0 +1,4 @@
+0 1 * * 1 rm -rf /tmp/luci-*cache* > /dev/null 2>&1
+*/5 * * * * /etc/my_pppoe.sh runA >> /etc/my_pppoe.log 2>&1
+5 * * * * /etc/my_pppoe.sh runB >> /etc/my_pppoe.log 2>&1
+15 * * * * /etc/my_pppoe.sh runC >> /etc/my_pppoe.log 2>&1
