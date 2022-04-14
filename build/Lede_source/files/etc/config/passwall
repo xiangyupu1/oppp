@@ -13,10 +13,10 @@ config global
 	option udp_node 'tcp'
 	option dns_cache '1'
 	option dns_shunt 'dnsmasq'
-	option enabled '1'
 	option tcp_proxy_mode 'gfwlist'
 	option udp_proxy_mode 'gfwlist'
 	option tcp_node 'e3b9e54bedd040ddaaadf672ece2a91c'
+	option enabled '0'
 
 config global_haproxy
 	option balancing_enable '0'
